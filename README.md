@@ -1,2 +1,2 @@
 # triOS-php-cp
-PHP course final project
+PHP course class project (Rahim)
