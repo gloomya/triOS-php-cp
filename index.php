@@ -81,5 +81,22 @@
 <!--JB End-->
 
 
+<!-- RE Footer -->
+<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: whitesmoke; border-top: 1px solid black">
+    <div class="row" style="padding: 1em; text-align:center">
+      <div class="col-sm-3" style="margin: auto;">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios-filled/50/000000/education.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/nolan/50/000000/html-filetype.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/nolan/50/000000/css-filetype.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios/50/000000/php-server.png">
+      </div>
+      <div class="col-sm-6"  style="margin: 1em auto;"> <strong>ALL RIGHTS RESERVED | BRAINSTORMING™ | <i>PHP2019</i> </strong></div>
+      <div class="col-sm-3"  style="margin: 1em auto;"><a href="https://icons8.com/icon/40569/education">Icons by Icons8</a></div>
+    </div>
+</div>
+<!-- RE FOOTER END -->
+
+
 </body>
 </html>
