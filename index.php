@@ -17,10 +17,10 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">BrainStorming</a>
+      <a class="navbar-brand align-by-margin" href="#">BrainStorming</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav align-by-margin">
         <li><a href="./tests.php">Tests</a></li>
         <li><a href="./about.php">About</a></li>
 		<li><a href="./contact.php">Contact</a></li>
@@ -29,7 +29,7 @@
 <!-- Changes from rous: navigation login  11-05-2019-->
             <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="email" placeholder="email"></li>
             <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="pwd" placeholder="password"></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li class="align-by-margin"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 <!-- Changes from rous: navigation login Ends-->
 
       </ul>
