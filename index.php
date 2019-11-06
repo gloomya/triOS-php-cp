@@ -44,7 +44,7 @@
   
 <!--JB Start-->
 <div class="container" id="signup-form" style="width:30%; margin: 10vh auto; background:rgba(255,255,255,.75); border-radius:.25em">
-  <h1 id="form-title" class="w-100 text-center" style="margin:5vh 0">Start the challege!</h1>
+  <h1 id="form-title" class="w-100 text-center" style="margin:5vh 0">Start the challenge!</h1>
   <hr>
   <form class="form-horizontal" action="#" method="POST">
     <div class="form-group">
