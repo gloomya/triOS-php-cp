@@ -29,10 +29,9 @@ body {
 
 .align-by-margin {
     margin: 1vh auto;
-    color: white !important;
 }
 
-.align-by-margin a {
+.navbar a {
     color: white !important;
 }
 
