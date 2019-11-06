@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
+  <!-- font family for footer --> <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
@@ -27,9 +28,13 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
 <!-- Changes from rous: navigation login  11-05-2019-->
-            <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="email" placeholder="email"></li>
-            <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="pwd" placeholder="password"></li>
-            <li class="align-by-margin"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <form action="#" method="POST">
+          <div class="form-group nav navbar-nav align-by-margin" style="width:500px" >
+              <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
+              <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
+              <button style="width:15%; margin: 1em 0.1em; text-align:center;" type="submit" class="btn btn-success nav navbar-nav align-by-margin">&nbsp;&nbsp; Login</button>
+          </div>
+        </form>
 <!-- Changes from rous: navigation login Ends-->
 
       </ul>
@@ -61,12 +66,12 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Enter email">
+        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Email Address">
       </div>
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Enter password">
+        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Password">
       </div>
     </div>
     <div class="form-group row">
@@ -84,23 +89,23 @@
 
 
 <!-- RE Footer -->
-<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: whitesmoke; border-top: 1px solid black">
+<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: rgba(0, 0, 0, 0.5); border-top: 0px solid white">
     <div class="row" style="padding: 1em; text-align:center">
       <div class="col-sm-3" style="margin: auto;">
-        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/nolan/50/000000/html-filetype.png">
-        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/nolan/50/000000/css-filetype.png">
-        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
-        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios/50/000000/php-server.png">
+        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/html-5.png">">
+        <img  style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/css3.png">
+        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
+        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios/50/000000/php-server.png">
         <a href="https://icons8.com/icon/40569/education"></a>
         <!-- Icons by Icons8 -->
       </div>
 
-      <div class="col-sm-6"  style="margin: 1em auto;"> <strong>© 2019 TRIOS STUDENTS | BRAINSTORMING™ | <i>PHP2019</i> </strong></div>
+      <div class="col-sm-6"  style="margin: 1em auto; color:whitesmoke; font-size:1.1em; font-family: 'Montserrat Alternates', sans-serif;"> © 2019 TRIOS STUDENTS | BRAINSTORMING™ | <i>PHP2019</i> </div>
 
       <div class="col-sm-3"  style="margin:auto;">
-        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/plasticine/100/000000/facebook-new.png">
-        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/cotton/64/000000/twitter.png">
-        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/dusk/64/000000/instagram-new.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1em;" src="https://img.icons8.com/plasticine/100/000000/facebook-new.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1em;" src="https://img.icons8.com/cotton/64/000000/twitter.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1em;" src="https://img.icons8.com/dusk/64/000000/instagram-new.png">
       </div>
 
     </div>
