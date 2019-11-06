@@ -31,10 +31,9 @@
 </nav>
 
 <!--Nabil Start-->  
-<div class="container" id="signup-form" style="width:100%; margin: 10vh auto; background:rgba(255,255,255,.75); border-radius:.25em">
-    <div class="row">
+<div class="container" id="contact-form" style="width:100%; margin: 10vh auto; border-radius:.25em">
+    <div class="row na-Row">
         <div class="col-sm-12 col-md-6">
-        <h1 id="form-title" class="w-100 text-center" style="margin:5vh 0">Contact Us!</h1>
 
   <form class="form-horizontal" action="#" method="POST">
     <div class="form-group">
@@ -49,17 +48,17 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Enter email">
+        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Email">
       </div>
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Enter phone number">
+        <input type="number" class="form-control text-center" id="pwd" name="pwd" placeholder="Phone Number">
       </div>
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <textarea type="text" class="form-control text-center" id="message" name="msg" placeholder="Enter message"></textarea>
+        <textarea type="text" class="form-control text-center" id="message" name="msg" placeholder="Message" rows="7" cols="50"></textarea>
       </div>
     </div>
     <div class="form-group row">

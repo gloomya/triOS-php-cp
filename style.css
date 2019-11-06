@@ -20,8 +20,15 @@ body {
     z-index: -1;
     filter: brightness(50%);
 }
+#contact-form{
 
+    padding: 20px;
 
+}
+
+.na-Row{
+    margin: 0 20px;
+}
 /*by nabil end 11-05-2019*/
 
 
