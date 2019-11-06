@@ -89,7 +89,7 @@
 
 
 <!-- RE Footer -->
-<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: rgba(245, 245, 245, 0.2); border-top: 0px solid white">
+<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: rgba(0, 0, 0, 0.5); border-top: 0px solid white">
     <div class="row" style="padding: 1em; text-align:center">
       <div class="col-sm-3" style="margin: auto;">
         <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/html-5.png">">
@@ -103,9 +103,9 @@
       <div class="col-sm-6"  style="margin: 1em auto; color:whitesmoke; font-size:1.1em; font-family: 'Montserrat Alternates', sans-serif;"> © 2019 TRIOS STUDENTS | BRAINSTORMING™ | <i>PHP2019</i> </div>
 
       <div class="col-sm-3"  style="margin:auto;">
-        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/plasticine/100/000000/facebook-new.png">
-        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/cotton/64/000000/twitter.png">
-        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/dusk/64/000000/instagram-new.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1em;" src="https://img.icons8.com/plasticine/100/000000/facebook-new.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1em;" src="https://img.icons8.com/cotton/64/000000/twitter.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1em;" src="https://img.icons8.com/dusk/64/000000/instagram-new.png">
       </div>
 
     </div>
