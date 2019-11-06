@@ -7,7 +7,27 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    margin: 0;
+    }
+
+    #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    }
+</style>
 </head>
+
+
 <body>
 
 <nav class="navbar navbar-inverse">
@@ -41,8 +61,14 @@
     </div>
   </div>
 </nav>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="na-bgvideo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
   
 <div class="container">
+
   <h3>Collapsible Navbar</h3>
   <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
   <p>Only when the button is clicked, the navigation bar will be displayed.</p>
