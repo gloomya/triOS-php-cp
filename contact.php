@@ -53,7 +53,7 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="number" class="form-control text-center" id="pwd" name="pwd" placeholder="Phone Number">
+        <input type="text" class="form-control text-center" id="pwd" name="pwd" placeholder="Phone Number">
       </div>
     </div>
     <div class="form-group">
