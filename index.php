@@ -14,8 +14,8 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse mk-navbar-custom">
+  <div class="container-fluid mk-container-fluid-custom">
     <div class="navbar-header">
       <a class="navbar-brand align-by-margin" href="#">BrainStorming</a>
     </div>
@@ -87,14 +87,22 @@
 <div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: whitesmoke; border-top: 1px solid black">
     <div class="row" style="padding: 1em; text-align:center">
       <div class="col-sm-3" style="margin: auto;">
-        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios-filled/50/000000/education.png">
-        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/nolan/50/000000/html-filetype.png">
-        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/nolan/50/000000/css-filetype.png">
-        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
-        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios/50/000000/php-server.png">
+        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/nolan/50/000000/html-filetype.png">
+        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/nolan/50/000000/css-filetype.png">
+        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
+        <img style="height:25px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios/50/000000/php-server.png">
+        <a href="https://icons8.com/icon/40569/education"></a>
+        <!-- Icons by Icons8 -->
       </div>
-      <div class="col-sm-6"  style="margin: 1em auto;"> <strong>ALL RIGHTS RESERVED | BRAINSTORMING™ | <i>PHP2019</i> </strong></div>
-      <div class="col-sm-3"  style="margin: 1em auto;"><a href="https://icons8.com/icon/40569/education">Icons by Icons8</a></div>
+
+      <div class="col-sm-6"  style="margin: 1em auto;"> <strong>© 2019 TRIOS STUDENTS | BRAINSTORMING™ | <i>PHP2019</i> </strong></div>
+
+      <div class="col-sm-3"  style="margin:auto;">
+        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/plasticine/100/000000/facebook-new.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/cotton/64/000000/twitter.png">
+        <img style="height:30px; width:auto; margin: 0.8em 1.5em;" src="https://img.icons8.com/dusk/64/000000/instagram-new.png">
+      </div>
+
     </div>
 </div>
 <!-- RE FOOTER END -->
