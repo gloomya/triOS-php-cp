@@ -21,6 +21,15 @@ body {
     filter:brightness(50%);
 }
 
+.form-group{
+    max-width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.form-horizontal{
+    margin: 0 auto;
+}
+
 /*by nabil end 11-05-2019*/
 
 
