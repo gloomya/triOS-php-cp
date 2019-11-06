@@ -9,6 +9,11 @@
 
 body {
     margin: 0;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+input {
+    font-family: 'Lexend Exa', sans-serif;
 }
 
 #myVideo {
@@ -18,11 +23,11 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    filter:brightness(50%);
+    filter: brightness(50%);
 }
 
-/*by nabil end 11-05-2019*/
 
+/*by nabil end 11-05-2019*/
 
 
 /*jb*/
@@ -35,8 +40,10 @@ body {
 .align-by-margin a {
     color: white !important;
 }
-/* by Monika*/
-.mk-navbar-custom{
-    border-radius: 0;
 
+
+/* by Monika*/
+
+.mk-navbar-custom {
+    border-radius: 0;
 }
