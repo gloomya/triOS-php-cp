@@ -36,3 +36,8 @@ body {
 .align-by-margin a {
     color: white !important;
 }
+/* by Monika*/
+.mk-navbar-custom{
+    border-radius: 0;
+
+}
