@@ -89,7 +89,7 @@
 
 
 <!-- RE Footer -->
-<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: rgba(245, 245, 245, 0.2); border-top: 0px solid white">
+<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: rgba(0, 0, 0, 0.5); border-top: 0px solid white">
     <div class="row" style="padding: 1em; text-align:center">
       <div class="col-sm-3" style="margin: auto;">
         <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/html-5.png">">
