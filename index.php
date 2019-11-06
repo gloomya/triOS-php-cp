@@ -18,10 +18,10 @@
 <nav class="navbar navbar-inverse mk-navbar-custom">
   <div class="container-fluid mk-container-fluid-custom">
     <div class="navbar-header">
-      <a class="navbar-brand align-by-margin" href="#">BrainStorming</a>
+      <a class="navbar-brand" href="#">BrainStorming</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav align-by-margin">
+      <ul class="nav navbar-nav">
         <li><a href="./tests.php">Tests</a></li>
         <li><a href="./about.php">About</a></li>
 		<li><a href="./contact.php">Contact</a></li>
@@ -30,9 +30,9 @@
 <!-- Changes from rous: navigation login  11-05-2019-->
         <form action="#" method="POST">
           <div class="form-group nav navbar-nav align-by-margin" style="width:500px" >
-              <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
-              <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
-              <button style="width:15%; margin: 1em 0.1em; text-align:center;" type="submit" class="btn btn-success nav navbar-nav align-by-margin">&nbsp;&nbsp; Login</button>
+              <li><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
+              <li><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
+              <button style="width:15%; text-align:center; margin-left: 1em;" type="submit" class="btn btn-success">Login</button>
           </div>
         </form>
 <!-- Changes from rous: navigation login Ends-->
