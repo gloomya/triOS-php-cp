@@ -36,15 +36,48 @@ body {
 
 .align-by-margin {
     margin: 1vh auto;
-    color: white !important;
 }
 
-.align-by-margin a {
+.navbar a {
     color: white !important;
 }
 
 
 /* by Monika*/
+.mk-navbar-custom{
+    border-radius: 0;
+    position: relative;
+    z-index: 10;
+}
+.about-bcg-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+    filter:brightness(50%);
+}
+.mk-container{
+    width:80%; 
+    height: 70vh;
+    margin: 10vh auto; 
+    background:rgba(255,255,255,.75); 
+    border-radius:.25em;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+   
+}
+.mk-about-text{
+    width: 100%;
+    min-height: fit-content;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
 
 .mk-navbar-custom {
     border-radius: 0;
