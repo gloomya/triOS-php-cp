@@ -11,7 +11,6 @@
 
 </head>
 
-
 <body>
 
 <nav class="navbar navbar-inverse mk-navbar-custom">
@@ -108,6 +107,6 @@
 
 <script src="main.js"></script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV6hm1DZtp7v41wY9CadqZXvWHJkzlJPM&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=MyAPI&callback=myMap"></script>
 </body>
 </html>
