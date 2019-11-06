@@ -9,10 +9,7 @@
   <!-- font family for footer --> <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
 
-=======
->>>>>>> c327022bdb5a66976c85f83e69e5e2b0dfb516e1
 </head>
 
 
