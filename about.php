@@ -43,7 +43,7 @@
 <div><img class="about-bcg-img" src="/crayon.jpg" alt="Crayon">
 </div>   
 <div class="mk-container">
-  <h1 id="form-title" class="w-100 text-center" style="margin:5vh 0">About Us</h1>
+  <h1 id="form-title" class="w-100 text-center mk-container-h1" style="margin:5vh 0">About Us</h1>
   <hr>
   <p class="mk-about-text">
   I’d heard others rave about Prodigy Math but I’m not usually a fan of gamified math, 
