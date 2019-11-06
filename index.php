@@ -37,10 +37,12 @@
   </div>
 </nav>
 
+<!-- By Nabil start 11-05-2019-->
     <video autoplay muted loop id="myVideo">
         <source src="na-bgvideo3.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
+<!-- By Nabil end 11-05-2019-->
   
 <!--JB Start-->
 <div class="container" id="signup-form" style="width:30%; margin: 10vh auto; background:rgba(255,255,255,.75); border-radius:.25em">
