@@ -28,9 +28,13 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
 <!-- Changes from rous: navigation login  11-05-2019-->
-            <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="email" placeholder="email"></li>
-            <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="pwd" placeholder="password"></li>
-            <li class="align-by-margin"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <form action="#" method="POST">
+          <div class="form-group nav navbar-nav align-by-margin" style="width:500px" >
+              <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
+              <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
+              <button style="width:18%; margin: 1em auto; text-align:center;" type="submit" class="btn btn-success nav navbar-nav align-by-margin">Login</button>
+          </div>
+        </form>
 <!-- Changes from rous: navigation login Ends-->
 
       </ul>
