@@ -18,20 +18,11 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    filter:brightness(50%);
+    filter: brightness(50%);
 }
 
-.form-group{
-    max-width: 100%;
-    margin: 20px auto;
-    text-align: center;
-}
-.form-horizontal{
-    margin: 0 auto;
-}
 
 /*by nabil end 11-05-2019*/
-
 
 
 /*jb*/
@@ -43,4 +34,11 @@ body {
 
 .align-by-margin a {
     color: white !important;
+}
+
+
+/* by Monika*/
+
+.mk-navbar-custom {
+    border-radius: 0;
 }
