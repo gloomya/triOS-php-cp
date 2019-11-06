@@ -42,11 +42,47 @@
   </div>
 </nav>
   
-<div class="container">
-  <h3>Collapsible Navbar</h3>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+<!--JB Start-->
+<div class="container" id="jb-signup-form" style="width:50%; margin: 10vh auto;">
+  <h1 id="jb-form-title" class="w-100 text-center" style="margin:5vh">Sign up!</h1>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="jb-fname">First Name</label>
+      <div class="col-sm-10">
+        <input type="input" class="form-control" id="jb-fname" placeholder="First Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="jb-lname">Last Name</label>
+      <div class="col-sm-10">
+        <input type="input" class="form-control" id="jb-lname" placeholder="Last Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="jb-email">Email Address</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="jb-email" placeholder="Enter email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="jb-pwd">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="jb-pwd" placeholder="Enter password">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary btn-block" style="background:gold; color:black; border:none;">Submit</button>
+      </div>
+    </div>
+  </form>
 </div>
+<!--JB End-->
+
+
+
+
+
 
 </body>
 </html>
