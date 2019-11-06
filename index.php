@@ -5,27 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<style>
-    * {
-    box-sizing: border-box;
-    }
-
-    body {
-    margin: 0;
-    }
-
-    #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -1;
-    }
-</style>
 </head>
 
 
@@ -38,9 +21,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Tests</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="./tests.php">Tests</a></li>
+        <li><a href="./about.php">About</a></li>
+		<li><a href="./contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
 <!-- Changes from rous: navigation login  11-05-2019-->
@@ -55,41 +38,42 @@
 </nav>
 
     <video autoplay muted loop id="myVideo">
-        <source src="na-bgvideo.mp4" type="video/mp4">
+        <source src="na-bgvideo3.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
   
 <!--JB Start-->
-<div class="container" id="jb-signup-form" style="width:50%; margin: 10vh auto;">
-  <h1 id="jb-form-title" class="w-100 text-center" style="margin:5vh">Sign up!</h1>
+<div class="container" id="signup-form" style="width:30%; margin: 10vh auto; background:rgba(255,255,255,.75); border-radius:.25em">
+  <h1 id="form-title" class="w-100 text-center" style="margin:5vh 0">Start the challenge!</h1>
+  <hr>
   <form class="form-horizontal" action="#" method="POST">
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-fname">First Name</label>
-      <div class="col-sm-10">
-        <input type="input" class="form-control" id="jb-fname" placeholder="First Name">
+      <div class="col-sm-12">
+        <input type="input" class="form-control text-center" id="fname" name="fname" placeholder="First name">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-lname">Last Name</label>
-      <div class="col-sm-10">
-        <input type="input" class="form-control" id="jb-lname" placeholder="Last Name">
+      <div class="col-sm-12">
+        <input type="input" class="form-control text-center" id="lname" name="lname" placeholder="Last name">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-email">Email Address</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="jb-email" placeholder="Enter email">
+      <div class="col-sm-12">
+        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Enter email">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-pwd">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="jb-pwd" placeholder="Enter password">
+      <div class="col-sm-12">
+        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Enter password">
       </div>
     </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-primary btn-block" style="background:gold; color:black; border:none;">Submit</button>
+    <div class="form-group row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6">
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </div>
+      <div class="col-sm-3">
       </div>
     </div>
   </form>
