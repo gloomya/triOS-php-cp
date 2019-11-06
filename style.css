@@ -1,6 +1,8 @@
 /* Styles */
 
+
 /*by nabil*/
+
 * {
     box-sizing: border-box;
 }
@@ -13,8 +15,22 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     z-index: -1;
 }
+
+
 /*by nabil*/
+
+
+/*jb*/
+
+.align-by-margin {
+    margin: 1vh auto;
+    color: white !important;
+}
+
+.align-by-margin a {
+    color: white !important;
+}
