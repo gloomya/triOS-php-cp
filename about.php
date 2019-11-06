@@ -50,8 +50,6 @@
   as often kids spend too much time playing inside the game and not enough time “mathing” 
   OR kids just think the games are lame because the game play is not as good as whatever 
   the latest big game studio thing is they like playing.
- </p>    
- <p class="mk-about-text">
  After trying a few other programs – none of which impressed my son – I finally got round to 
  setting him up on Prodigy Math. He spent 20 mins scoffing about how rubbish the gameplay was 
  but then voluntarily came back to it later on in the day and played for another 30 mins, even 
