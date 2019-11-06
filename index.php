@@ -5,27 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<style>
-    * {
-    box-sizing: border-box;
-    }
-
-    body {
-    margin: 0;
-    }
-
-    #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -1;
-    }
-</style>
 </head>
 
 
@@ -38,9 +21,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">Contact Us</a></li>
         <li><a href="#">Tests</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
 <!-- Changes from rous: navigation login  11-05-2019-->
@@ -55,7 +38,7 @@
 </nav>
 
     <video autoplay muted loop id="myVideo">
-        <source src="na-bgvideo.mp4" type="video/mp4">
+        <source src="na-bgvideo2.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
   
