@@ -1,7 +1,7 @@
 /* Styles */
 
 
-/*by nabil*/
+/*by nabil start 11-05-2019*/
 
 * {
     box-sizing: border-box;
@@ -21,8 +21,8 @@ body {
     filter:brightness(50%);
 }
 
+/*by nabil end 11-05-2019*/
 
-/*by nabil*/
 
 
 /*jb*/
@@ -34,4 +34,9 @@ body {
 
 .align-by-margin a {
     color: white !important;
+}
+/* by Monika*/
+.mk-navbar-custom{
+    border-radius: 0;
+
 }

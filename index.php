@@ -15,8 +15,8 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse mk-navbar-custom">
+  <div class="container-fluid mk-container-fluid-custom">
     <div class="navbar-header">
       <a class="navbar-brand align-by-margin" href="#">BrainStorming</a>
     </div>
@@ -38,10 +38,12 @@
   </div>
 </nav>
 
+<!-- By Nabil start 11-05-2019-->
     <video autoplay muted loop id="myVideo">
         <source src="na-bgvideo3.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
+<!-- By Nabil end 11-05-2019-->
   
 <!--JB Start-->
 <div class="container" id="signup-form" style="width:30%; margin: 10vh auto; background:rgba(255,255,255,.75); border-radius:.25em">
@@ -60,12 +62,12 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Enter email">
+        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Email Address">
       </div>
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Enter password">
+        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Password">
       </div>
     </div>
     <div class="form-group row">
