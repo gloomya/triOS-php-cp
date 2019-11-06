@@ -21,9 +21,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">Tests</a></li>
-        <li><a href="#">About</a></li>
-		<li><a href="#">Contact</a></li>
+        <li><a href="./tests.php">Tests</a></li>
+        <li><a href="./about.php">About</a></li>
+		<li><a href="./contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
 <!-- Changes from rous: navigation login  11-05-2019-->
