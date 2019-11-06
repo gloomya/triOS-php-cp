@@ -59,13 +59,6 @@
         Your browser does not support HTML5 video.
     </video>
   
-<<<<<<< HEAD
-<div class="container">
-
-  <h3>Collapsible Navbar</h3>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-=======
 <!--JB Start-->
 <div class="container" id="jb-signup-form" style="width:50%; margin: 10vh auto;">
   <h1 id="jb-form-title" class="w-100 text-center" style="margin:5vh">Sign up!</h1>
@@ -100,7 +93,6 @@
       </div>
     </div>
   </form>
->>>>>>> 4eeadf7326d68168b0cf5fbaf79798f9d0bb325e
 </div>
 <!--JB End-->
 
