@@ -14,22 +14,22 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse mk-navbar-custom">
+  <div class="container-fluid mk-container-fluid-custom">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">BrainStorming</a>
+      <a class="navbar-brand align-by-margin" href="#">BrainStorming</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Tests</a></li>
-        <li><a href="#">About Us</a></li>
+      <ul class="nav navbar-nav align-by-margin">
+        <li><a href="./tests.php">Tests</a></li>
+        <li><a href="./about.php">About</a></li>
+		<li><a href="./contact.php">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
 <!-- Changes from rous: navigation login  11-05-2019-->
             <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="email" placeholder="email"></li>
             <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="pwd" placeholder="password"></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li class="align-by-margin"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 <!-- Changes from rous: navigation login Ends-->
 
       </ul>
@@ -38,46 +38,64 @@
 </nav>
 
     <video autoplay muted loop id="myVideo">
-        <source src="na-bgvideo2.mp4" type="video/mp4">
+        <source src="na-bgvideo3.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
   
 <!--JB Start-->
-<div class="container" id="jb-signup-form" style="width:50%; margin: 10vh auto;">
-  <h1 id="jb-form-title" class="w-100 text-center" style="margin:5vh">Sign up!</h1>
+<div class="container" id="signup-form" style="width:30%; margin: 10vh auto; background:rgba(255,255,255,.75); border-radius:.25em">
+  <h1 id="form-title" class="w-100 text-center" style="margin:5vh 0">Start the challenge!</h1>
+  <hr>
   <form class="form-horizontal" action="#" method="POST">
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-fname">First Name</label>
-      <div class="col-sm-10">
-        <input type="input" class="form-control" id="jb-fname" placeholder="First Name">
+      <div class="col-sm-12">
+        <input type="input" class="form-control text-center" id="fname" name="fname" placeholder="First name">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-lname">Last Name</label>
-      <div class="col-sm-10">
-        <input type="input" class="form-control" id="jb-lname" placeholder="Last Name">
+      <div class="col-sm-12">
+        <input type="input" class="form-control text-center" id="lname" name="lname" placeholder="Last name">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-email">Email Address</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="jb-email" placeholder="Enter email">
+      <div class="col-sm-12">
+        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Enter email">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="jb-pwd">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="jb-pwd" placeholder="Enter password">
+      <div class="col-sm-12">
+        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Enter password">
       </div>
     </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-primary btn-block" style="background:gold; color:black; border:none;">Submit</button>
+    <div class="form-group row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6">
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </div>
+      <div class="col-sm-3">
       </div>
     </div>
   </form>
 </div>
 <!--JB End-->
+
+
+<!-- RE Footer -->
+<div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: whitesmoke; border-top: 1px solid black">
+    <div class="row" style="padding: 1em; text-align:center">
+      <div class="col-sm-3" style="margin: auto;">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios-filled/50/000000/education.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/nolan/50/000000/html-filetype.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/nolan/50/000000/css-filetype.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
+        <img style="height:30px; width:auto; margin: 1em auto;" src="https://img.icons8.com/ios/50/000000/php-server.png">
+      </div>
+      <div class="col-sm-6"  style="margin: 1em auto;"> <strong>ALL RIGHTS RESERVED | BRAINSTORMING™ | <i>PHP2019</i> </strong></div>
+      <div class="col-sm-3"  style="margin: 1em auto;"><a href="https://icons8.com/icon/40569/education">Icons by Icons8</a></div>
+    </div>
+</div>
+<!-- RE FOOTER END -->
 
 
 </body>
