@@ -59,12 +59,12 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Enter email">
+        <input type="email" class="form-control text-center" id="email" name="email" placeholder="Email Address">
       </div>
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Enter password">
+        <input type="password" class="form-control text-center" id="pwd" name="pwd" placeholder="Password">
       </div>
     </div>
     <div class="form-group row">
