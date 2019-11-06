@@ -22,10 +22,11 @@
         <li><a href="#">About Us</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-
+<!-- Changes from rous: navigation login  11-05-2019-->
             <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="email" placeholder="email"></li>
             <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="pwd" placeholder="password"></li>
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+<!-- Changes from rous: navigation login Ends-->
 
       </ul>
     </div>
