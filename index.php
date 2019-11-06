@@ -9,8 +9,10 @@
   <!-- font family for footer --> <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <!--JB -->
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+<<<<<<< HEAD
+
+=======
+>>>>>>> c327022bdb5a66976c85f83e69e5e2b0dfb516e1
 </head>
 
 
@@ -33,7 +35,7 @@
           <div class="form-group nav navbar-nav align-by-margin" style="width:500px" >
               <li style="margin:1em 0.1em;"><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
               <li style="margin:1em 0.1em;"><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
-              <button style="width:18%; margin: 1em auto; text-align:center;" type="submit" class="btn btn-success nav navbar-nav align-by-margin">Login</button>
+              <button style="width:15%; margin: 1em 0.1em; text-align:center;" type="submit" class="btn btn-success nav navbar-nav align-by-margin">&nbsp;&nbsp; Login</button>
           </div>
         </form>
 <!-- Changes from rous: navigation login Ends-->
