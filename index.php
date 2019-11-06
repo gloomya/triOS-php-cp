@@ -45,7 +45,7 @@
 <!--JB Start-->
 <div class="container" id="jb-signup-form" style="width:50%; margin: 10vh auto;">
   <h1 id="jb-form-title" class="w-100 text-center" style="margin:5vh">Sign up!</h1>
-  <form class="form-horizontal" action="/action_page.php">
+  <form class="form-horizontal" action="#" method="POST">
     <div class="form-group">
       <label class="control-label col-sm-2" for="jb-fname">First Name</label>
       <div class="col-sm-10">
