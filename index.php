@@ -30,9 +30,9 @@
 <!-- Changes from rous: navigation login  11-05-2019-->
         <form action="#" method="POST">
           <div class="form-group nav navbar-nav align-by-margin" style="width:500px" >
-              <li><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
-              <li><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
-              <button style="width:15%; text-align:center; margin-left: 1em;" type="submit" class="btn btn-success">Login</button>
+              <li style="box-sizing:border-box; margin: 0 0.2em"><input type="email" class="form-control" id="navEmail" placeholder="email"></li>
+              <li style="box-sizing:border-box; margin: 0 0.2em"><input type="password" class="form-control" id="navPwd" placeholder="password"></li>
+              <button style="box-sizing:border-box; width:15%; text-align:center; margin-left: 1em;" type="submit" class="btn btn-success">Login</button>
           </div>
         </form>
 <!-- Changes from rous: navigation login Ends-->
@@ -96,10 +96,10 @@
 <div class="container" style="height: 7rem; position: fixed; bottom:0; width: 100%; background: rgba(0, 0, 0, 0.5); border-top: 0px solid white">
     <div class="row" style="padding: 1em; text-align:center">
       <div class="col-sm-3" style="margin: auto;">
-        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/html-5.png">">
+        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/html-5.png">
         <img  style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/css3.png">
-        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png">
-        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/ios/50/000000/php-server.png">
+        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/color/48/000000/javascript.png">
+        <img style="height:30px; width:auto; margin: 1em 0.5em;" src="https://img.icons8.com/dusk/64/000000/php-logo.png">
         <a href="https://icons8.com/icon/40569/education"></a>
         <!-- Icons by Icons8 -->
       </div>
